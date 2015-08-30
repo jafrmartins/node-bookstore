@@ -1,0 +1,40 @@
+{
+  "name": "bookstore",
+  "version": "0.0.0",
+  "main": "index",
+  "description": "Bookstore",
+  "scripts": {},
+  "config": {
+    "express_port": 3000,
+    "express_path": "./data/bookstore",
+    "express_pidfile": "bookstore.lock",
+    "mongodb_path": "./data/mongodb",
+    "mongodb_url": "mongodb://localhost/bookstore"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^4.1.3"
+  },
+  "devDependencies": {
+    "async": "^1.4.2",
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2",
+    "mocha": "^2.2.5",
+    "request-json": "^0.5.3"
+  },
+  "author": "João Afonso Martins",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/jafrmartins/bookstore",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/jafrmartins/bookstore.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/jafrmartins/bookstore/issues"
+  }
+}
